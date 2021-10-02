@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"7_seven_segment_button_v1.2\startup_stm32f103xb.o"
+"7_seven_segment_button_v1.2\main.o"
+"7_seven_segment_button_v1.2\gpio.o"
+"7_seven_segment_button_v1.2\stm32f1xx_it.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_msp.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_gpio_ex.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_tim.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_tim_ex.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_rcc.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_rcc_ex.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_gpio.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_dma.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_cortex.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_pwr.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_flash.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_flash_ex.o"
+"7_seven_segment_button_v1.2\stm32f1xx_hal_exti.o"
+"7_seven_segment_button_v1.2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "7_SEVEN_SEGMENT_BUTTON_V1.2\7_SEVEN_SEGMENT_BUTTON_V1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "7_SEVEN_SEGMENT_BUTTON_V1.map" -o 7_SEVEN_SEGMENT_BUTTON_V1.2\7_SEVEN_SEGMENT_BUTTON_V1.2

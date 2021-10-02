@@ -1,0 +1,1 @@
+7_seven_segment_button_v1.2\startup_stm32f103xb.o: startup_stm32f103xb.s

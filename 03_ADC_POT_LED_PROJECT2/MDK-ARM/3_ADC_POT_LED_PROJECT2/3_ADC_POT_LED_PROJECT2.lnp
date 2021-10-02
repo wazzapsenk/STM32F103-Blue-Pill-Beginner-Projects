@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"3_adc_pot_led_project2\startup_stm32f103xb.o"
+"3_adc_pot_led_project2\main.o"
+"3_adc_pot_led_project2\stm32f1xx_it.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_msp.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_gpio_ex.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_adc.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_adc_ex.o"
+"3_adc_pot_led_project2\stm32f1xx_hal.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_rcc.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_rcc_ex.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_gpio.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_dma.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_cortex.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_pwr.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_flash.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_flash_ex.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_exti.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_tim.o"
+"3_adc_pot_led_project2\stm32f1xx_hal_tim_ex.o"
+"3_adc_pot_led_project2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "3_ADC_POT_LED_PROJECT2\3_ADC_POT_LED_PROJECT2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "3_ADC_POT_LED_PROJECT2.map" -o 3_ADC_POT_LED_PROJECT2\3_ADC_POT_LED_PROJECT2.axf

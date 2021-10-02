@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"5_usart\startup_stm32f103xb.o"
+"5_usart\main.o"
+"5_usart\stm32f1xx_it.o"
+"5_usart\stm32f1xx_hal_msp.o"
+"5_usart\stm32f1xx_hal_gpio_ex.o"
+"5_usart\stm32f1xx_hal_tim.o"
+"5_usart\stm32f1xx_hal_tim_ex.o"
+"5_usart\stm32f1xx_hal_uart.o"
+"5_usart\stm32f1xx_hal.o"
+"5_usart\stm32f1xx_hal_rcc.o"
+"5_usart\stm32f1xx_hal_rcc_ex.o"
+"5_usart\stm32f1xx_hal_gpio.o"
+"5_usart\stm32f1xx_hal_dma.o"
+"5_usart\stm32f1xx_hal_cortex.o"
+"5_usart\stm32f1xx_hal_pwr.o"
+"5_usart\stm32f1xx_hal_flash.o"
+"5_usart\stm32f1xx_hal_flash_ex.o"
+"5_usart\stm32f1xx_hal_exti.o"
+"5_usart\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "5_USART\5_USART.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "5_USART.map" -o 5_USART\5_USART.axf

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"9_lcd_display\startup_stm32f103xb.o"
+"9_lcd_display\lcd16x2.o"
+"9_lcd_display\main.o"
+"9_lcd_display\gpio.o"
+"9_lcd_display\tim.o"
+"9_lcd_display\stm32f1xx_it.o"
+"9_lcd_display\stm32f1xx_hal_msp.o"
+"9_lcd_display\stm32f1xx_hal_gpio_ex.o"
+"9_lcd_display\stm32f1xx_hal_tim.o"
+"9_lcd_display\stm32f1xx_hal_tim_ex.o"
+"9_lcd_display\stm32f1xx_hal.o"
+"9_lcd_display\stm32f1xx_hal_rcc.o"
+"9_lcd_display\stm32f1xx_hal_rcc_ex.o"
+"9_lcd_display\stm32f1xx_hal_gpio.o"
+"9_lcd_display\stm32f1xx_hal_dma.o"
+"9_lcd_display\stm32f1xx_hal_cortex.o"
+"9_lcd_display\stm32f1xx_hal_pwr.o"
+"9_lcd_display\stm32f1xx_hal_flash.o"
+"9_lcd_display\stm32f1xx_hal_flash_ex.o"
+"9_lcd_display\stm32f1xx_hal_exti.o"
+"9_lcd_display\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "9_LCD_DISPLAY\9_LCD_DISPLAY.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "9_LCD_DISPLAY.map" -o 9_LCD_DISPLAY\9_LCD_DISPLAY.axf

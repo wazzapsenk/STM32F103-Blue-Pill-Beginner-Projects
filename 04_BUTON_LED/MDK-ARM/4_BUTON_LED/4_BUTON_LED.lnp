@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"4_buton_led\startup_stm32f103xb.o"
+"4_buton_led\main.o"
+"4_buton_led\stm32f1xx_it.o"
+"4_buton_led\stm32f1xx_hal_msp.o"
+"4_buton_led\stm32f1xx_hal_gpio_ex.o"
+"4_buton_led\stm32f1xx_hal_tim.o"
+"4_buton_led\stm32f1xx_hal_tim_ex.o"
+"4_buton_led\stm32f1xx_hal.o"
+"4_buton_led\stm32f1xx_hal_rcc.o"
+"4_buton_led\stm32f1xx_hal_rcc_ex.o"
+"4_buton_led\stm32f1xx_hal_gpio.o"
+"4_buton_led\stm32f1xx_hal_dma.o"
+"4_buton_led\stm32f1xx_hal_cortex.o"
+"4_buton_led\stm32f1xx_hal_pwr.o"
+"4_buton_led\stm32f1xx_hal_flash.o"
+"4_buton_led\stm32f1xx_hal_flash_ex.o"
+"4_buton_led\stm32f1xx_hal_exti.o"
+"4_buton_led\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "4_BUTON_LED\4_BUTON_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "4_BUTON_LED.map" -o 4_BUTON_LED\4_BUTON_LED.axf
